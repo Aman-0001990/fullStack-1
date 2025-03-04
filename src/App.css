@@ -1,0 +1,31 @@
+/* Full page centering */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+/* Card styling */
+.card {
+  background-color: rgb(10, 193, 235);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px skyblue;
+  text-align: center;
+  color: #ffffff;
+  width: 350px;
+}
+
+/* Heading styles */
+.heading {
+  margin-bottom: 20px;
+}
+
+/* Text styles */
+.text {
+  font-size: 18px;
+  margin: 10px 0;
+}
